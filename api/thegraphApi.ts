@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
 import { getReq } from './server/abstract';
 import { sanitizeDStorageUrl } from '@/lib/utils';
 import { CollectionInfo, Creator, NewNFTCreateds, ProjectInfo, StakeEthAmountForInitialCollection } from '@/lib/type';
-
+ 
 const API_URL = process.env.NEXT_PUBLIC_SUBGRAPH_URL || ""
 
 /* create the API client */
